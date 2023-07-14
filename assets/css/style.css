@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Cookie";
+    src: url(../fonts/Cookie-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/static/Raleway-Regular.ttf);
+}
+
+body {
+    background-color: #2a3b40;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1320px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jsc {
+    justify-content: space-between;
+}
+
+.col_50 {
+    width: 50%;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+.hd_text {
+    margin: 20px 0 0 100px;
+
+}
+
+.hd_text h2 {
+    font-family: "Raleway";
+    color: #fff;
+}
+
+
+.list ul li {
+    display: inline-block;
+    font-family: "Raleway";
+    padding: 20px;
+}
+
+.list {
+    margin: 10px 90px 0 0px;
+}
+
+/* ************************************** */
+header {
+    background-image: url(../img/back1.png);
+    padding-bottom: 600px;
+    background-repeat: no-repeat;
+    /* background-size: 100%, 100%; */
+}
+
+.main_box {
+    height: 250px;
+    width: 350px;
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: .80;
+    background-color: whitesmoke;
+
+}
+
+.main_text h2 {
+    font-family: "Cookie";
+    font-size: 35px;
+    padding: 20px 0 0 0;
+
+}
+
+.main_text h3 {
+    font-family: "Raleway";
+    color: #ad6c12;
+    font-size: 40px;
+}
+
+.main_text button {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-family: "Raleway";
+    background-color: #ffffff;
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+
+/* *********************sec_1********************************* */
+
+.sec_text {
+    text-align: center;
+    width: 64%;
+    margin: 100px auto;
+    border: 2px solid deeppink;
+    color: #fff;
+}
+
+.sec_img {
+    width: 80%;
+    float: right;
+    /* margin: 20px 0 0 0px; */
+}
+
+.sec_img img {
+    width: 100%;
+    margin: 30px auto;
+}
