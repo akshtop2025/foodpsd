@@ -24,6 +24,12 @@ a {
     color: #fff;
 }
 
+.center {
+    text-align: center;
+}
+
+
+
 .container {
     width: 1320px;
 }
@@ -39,6 +45,10 @@ a {
 
 .col_50 {
     width: 50%;
+}
+
+.col_33 {
+    width: 33%;
 }
 
 ul li {
@@ -60,30 +70,49 @@ ul li {
 .list ul li {
     display: inline-block;
     font-family: "Raleway";
-    padding: 20px;
+    padding: 50px;
+
+
+}
+
+.hd_text h2 {
+    position: fixed;
+}
+
+.list ul li a {
+    position: fixed;
 }
 
 .list {
     margin: 10px 90px 0 0px;
+
 }
 
 /* ************************************** */
 header {
-    background-image: url(../img/back1.png);
-    padding-bottom: 600px;
+    background: url(../img/back1.png) no-repeat center center;
+    /* padding-bottom: 600px; */
+    /* min-height: 100vh; */
     background-repeat: no-repeat;
-    /* background-size: 100%, 100%; */
+    background-size: cover;
 }
 
 .main_box {
-    height: 250px;
-    width: 350px;
-    margin: auto;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
+    /* margin: 100px 0; */
+    padding: 100px 0;
+
+}
+
+.pd {
+    padding: 100px 0;
+}
+
+.main_text {
+
+    padding: 100px 0;
+    width: 50%;
+    margin: 0 auto;
+    z-index: -10;
     text-align: center;
     opacity: .80;
     background-color: whitesmoke;
@@ -118,20 +147,90 @@ header {
 /* *********************sec_1********************************* */
 
 .sec_text {
-    text-align: center;
-    width: 64%;
-    margin: 100px auto;
-    border: 2px solid deeppink;
+    text-align: justify;
+    width: 80%;
+    margin: 21% auto;
     color: #fff;
 }
 
+.sec_text h3 {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Raleway";
+    padding: 0 0 25px 0;
+}
+
+.sec_text p {
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Raleway";
+}
+
 .sec_img {
-    width: 80%;
-    float: right;
-    /* margin: 20px 0 0 0px; */
+    width: 75%;
+    margin: 50px 0 50px 40px;
+
 }
 
 .sec_img img {
     width: 100%;
-    margin: 30px auto;
+    /* margin: 30px auto; */
+}
+
+/* **************sec_2 *************** */
+.sec_2 {
+    background-image: url(../img/back2.png);
+
+}
+
+.sec_2_box {
+    padding: 50px 0;
+    display: inline-block;
+    width: 90%;
+}
+
+.wrp {
+    width: 80%;
+    margin: auto;
+}
+
+
+.box_text h2 {
+    font-family: "Raleway";
+    margin-top: 20px;
+}
+
+.box_img {
+    display: inline-block;
+}
+
+.box_text p {
+    font-family: "Raleway";
+    padding: 30px 0;
+    width: 95.2%;
+    color: #2a3b40;
+    line-height: 25px;
+    text-align: inherit;
+    word-spacing: 1px;
+}
+
+
+/* *******************************sec_3********************* */
+
+.sec_3 {
+    background-image: url(../img/back3.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    /* padding-bottom: 100px; */
+    height: 170vh;
+
+}
+
+.box_main_box h2 {
+    font-family: "Cookie";
+}
+
+.box_main_box h3 {
+    font-family: "Raleway";
+
 }
